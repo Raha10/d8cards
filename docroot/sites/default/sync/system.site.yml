@@ -1,0 +1,14 @@
+uuid: 3a62cd25-aab5-4ca8-9e2c-b1a6cfaf6b63
+name: 'D8 cards Sample'
+mail: d8cardssite@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
