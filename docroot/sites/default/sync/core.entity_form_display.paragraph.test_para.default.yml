@@ -1,0 +1,24 @@
+uuid: e514bd1a-abac-4f57-827e-3bf20bf8c1aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.test_para.field_body
+    - paragraphs.paragraphs_type.test_para
+id: paragraph.test_para.default
+targetEntityType: paragraph
+bundle: test_para
+mode: default
+content:
+  field_body:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true
