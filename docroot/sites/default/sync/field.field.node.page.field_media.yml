@@ -1,0 +1,34 @@
+uuid: 595ce988-e19d-40cf-88c7-f0a022daac43
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_media
+    - node.type.page
+    - paragraphs.paragraphs_type.social_media
+  module:
+    - entity_reference_revisions
+id: node.page.field_media
+field_name: field_media
+entity_type: node
+bundle: page
+label: Media
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      social_media: social_media
+    target_bundles_drag_drop:
+      social_media:
+        enabled: true
+        weight: 3
+      test_para:
+        weight: 4
+        enabled: false
+field_type: entity_reference_revisions
